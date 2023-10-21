@@ -28,7 +28,7 @@ mysql -u root <<< "CREATE USER '$DB_USER'@'%' IDENTIFIED BY '$DB_PASSWORD'"
 mysql -u root <<< "GRANT ALL PRIVILEGES ON *.* TO '$DB_USER'@'%'"
 
 
-#creamos directorio apra adminer
+#creamos directorio para adminer
 mkdir -p /var/www/html/adminer
 
 # Instalacion de Adminera
